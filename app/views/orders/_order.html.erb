@@ -1,0 +1,19 @@
+<% line_items.each_with_index do |line_item, index| %>
+  <tr>
+    <td>
+      <%= image_tag products[index].image.thumb, alt: products[index][:name] %>
+    </td>
+    <td>
+      <p><%= products[index][:name] %></p>
+    </td>
+    <td>
+      <p><%= products[index][:description] %></p>
+    </td>
+    <td>
+      <p><%= line_item[:quantity] %></p>
+    </td>
+    <td>
+      <p><%= humanized_money_with_symbol line_item[:total_price_cents] / 100.0 %></p>
+    </td>
+  </tr>
+<% end %>
