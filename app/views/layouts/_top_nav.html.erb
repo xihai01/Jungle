@@ -43,7 +43,11 @@
           </ul>
         </li>
         <li>
-          <%= link_to 'Signup', new_user_path %>
+          <% if current_user %>
+            Hi, <%= current_user.first_name %>! | <%= link_to 'Logout', session_path(current_user), method: 'delete' %>
+          <% else %>
+            <%= link_to 'Login', new_session_path %> | <%= link_to 'Signup', new_user_path %>
+          <% end %>
         </li>
         <li>
           <%= link_to cart_path do %>

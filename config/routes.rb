@@ -22,6 +22,9 @@ Rails.application.routes.draw do
   # user signup routes
   resources :users, only: [:new, :create]
 
+  # session routes for login and logout
+  resources :sessions, only: [:new, :create, :destroy]
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
