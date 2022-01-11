@@ -31,3 +31,19 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+
+# resume
+- header is cool
+- links are working
+- edit github to pin projects so employer can see
+- summary good (its unique)
+
+## categories rearrange
+summary -> skills -> projects -> education -> employment ...
+
+## volunteering
+- remove da vinci and keep newcomer
+
+## projects
+- bold the front-end, back-end, design tools to stand out
+- 
