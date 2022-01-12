@@ -1,4 +1,4 @@
-class Admin::DashboardController < ApplicationController
+class Admin::DashboardController < Admin::BaseController
   def show
     # query db for # of categories and products
     @categories_count = Category.count
