@@ -6,7 +6,7 @@ Jungle is a mini E-Commerce application built with Rails 4.2. Customers can brow
 | Front-End  | Back-End | Database | Testing | Other |
 | ------------- | ------------- | ------ | ---------- | --------- |
 | **Bootstrap** | **Rails 4.2**  | **PostgreSQL** | **Rspec** for model/controller testing | **Stripe**|
-| **HTML** |  | | **Capybara + Poltergeist** for feature spec testing | **bcrypt** for password hashing|
+| **HTML** | **Ruby** | | **Capybara + Poltergeist** for feature spec testing | **bcrypt** for password hashing|
 | **CSS** with **SASS** as preprocessor | | ||
 
 ## Demo
