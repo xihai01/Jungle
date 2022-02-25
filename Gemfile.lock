@@ -252,6 +252,7 @@ DEPENDENCIES
   quiet_assets
   rails (= 4.2.11)
   rails_12factor
+  rake
   rmagick
   rspec-rails (~> 3.5)
   sass-rails (~> 5.0)
