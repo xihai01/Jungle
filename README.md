@@ -22,8 +22,9 @@ Customers can also login/register for their own profiles. All user passwords are
 ## Local Machine Setup
 
 1. Run `bundle install` to install dependencies
-2. Run `bin/rake db:reset` to create, load and seed db
-3. Run `bin/rails s` to start the server on localhost:3000
+2. Configure and setup local dev db in `database.yml`
+3. Run `bin/rake db:reset` to create, load and seed db
+4. Run `bin/rails s` to start the server on localhost:3000
 
 ## Additional Steps for Apple M1 Machines
 
