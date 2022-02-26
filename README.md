@@ -19,16 +19,11 @@ The admin (owner) of Jungle has their own section where they can create/destroy 
 
 Customers can also login/register for their own profiles. All user passwords are hashed first using bcrypt before storing them into the database.
 
-## Setup
+## Local Machine Setup
 
 1. Run `bundle install` to install dependencies
-2. Create `config/database.yml` by copying `config/database.example.yml`
-3. Create `config/secrets.yml` by copying `config/secrets.example.yml`
-4. Run `bin/rake db:reset` to create, load and seed db
-5. Create .env file based on .env.example
-6. Sign up for a Stripe account
-7. Put Stripe (test) keys into appropriate .env vars
-8. Run `bin/rails s -b 0.0.0.0` to start the server
+2. Run `bin/rake db:reset` to create, load and seed db
+3. Run `bin/rails s` to start the server on localhost:3000
 
 ## Additional Steps for Apple M1 Machines
 
@@ -43,6 +38,12 @@ Customers can also login/register for their own profiles. All user passwords are
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
+
+## Admin Access
+
+Username = jungle
+
+Password = book
 
 ## Dependencies
 

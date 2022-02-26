@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
 ruby "2.3.5"
 
-gem 'rake'
-gem 'bigdecimal', '1.3.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.11'
+gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18.4'
 # Use SCSS for stylesheets
