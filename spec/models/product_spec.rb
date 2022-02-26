@@ -19,7 +19,6 @@ RSpec.describe Product, type: :model do
     end
 
     it 'not save for empty price field' do
-    	byebug
       @product = Product.new(category_id: @category.id, name: "microwave", price_cents: nil, quantity: 22)
       @product.save
       expect(@product.errors.full_messages[0]).to eq("Price cents is not a number")
