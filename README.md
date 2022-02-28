@@ -26,6 +26,8 @@ Customers can also login/register for their own profiles. All user passwords are
 3. Run `bin/rake db:reset` to create, load and seed db
 4. Run `bin/rails s` to start the server on localhost:3000
 
+Note: For tests, run `bundle exec rspec` to view test results.
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
@@ -40,7 +42,7 @@ Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
-## Admin Access
+## Admin Page Access
 
 Username = jungle
 
